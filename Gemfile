@@ -11,5 +11,5 @@ gem "turbo-rails"
 gem "stimulus-rails"
 gem "lookbook", "~> 2.0"
 
-gem "rubocop-rails-omakase", require: false
+gem "standard"
 gem "foreman"

@@ -1,14 +1,14 @@
 require_relative "lib/polaris_rails/version"
 
 Gem::Specification.new do |spec|
-  spec.name        = "polaris_rails"
-  spec.version     = PolarisRails::VERSION
-  spec.authors     = [ "Kirill Platonov" ]
-  spec.email       = [ "mail@kirillplatonov.com" ]
-  spec.homepage    = "TODO"
-  spec.summary     = "TODO: Summary of PolarisRails."
+  spec.name = "polaris_rails"
+  spec.version = PolarisRails::VERSION
+  spec.authors = ["Kirill Platonov"]
+  spec.email = ["mail@kirillplatonov.com"]
+  spec.homepage = "TODO"
+  spec.summary = "TODO: Summary of PolarisRails."
   spec.description = "TODO: Description of PolarisRails."
-  spec.license     = "MIT"
+  spec.license = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the "allowed_push_host"
   # to allow pushing to a single host or delete this section to allow pushing to any host.
