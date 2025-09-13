@@ -1,3 +1,4 @@
+# Gem
 /.bundle/
 /doc/
 /log/*.log
@@ -8,3 +9,12 @@
 /test/dummy/log/*.log
 /test/dummy/storage/
 /test/dummy/tmp/
+
+# Demo app
+/demo/tmp/
+/demo/node_modules/
+/demo/config/master.key
+/demo/public/assets/
+/demo/db/*.sqlite3
+/demo/db/*.sqlite3-*
+/demo/log/*.log
