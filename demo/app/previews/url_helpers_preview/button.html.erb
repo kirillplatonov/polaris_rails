@@ -1,0 +1,15 @@
+<s-stack gap="base">
+  <%= s_button_to "Simple Button", "/products" %>
+
+  <%= s_button_to "/products", variant: "primary" do %>
+    Add Product
+  <% end %>
+
+  <%= s_button_to "Delete Product", "/products",
+    tone: "critical",
+    method: :delete,
+    destructive: true,
+    data: {
+      confirm: "Are you sure?",
+    } %>
+</s-stack>
