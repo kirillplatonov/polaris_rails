@@ -1,0 +1,5 @@
+<%= form_with(model: product, builder: PolarisRails::FormBuilder) do |form| %>
+  <s-stack gap="base">
+    <%= form.s_text_field(:title) %>
+  </s-stack>
+<% end %>
